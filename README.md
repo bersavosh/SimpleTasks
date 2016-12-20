@@ -1,5 +1,5 @@
-# LazyTools:
-A small collection of naive scripts I've written to run things from the command line.
+# SimpleTasks:
+A small collection of naive scripts I've written to for simple tasks or to remember something.
 
 ## 1. GehrelsStat:
 A quick script to calculate confidence interval and significance for poisson distribution of events in the photon-starved regime. This is a lazy brute-force implementation of [Gehrels 1986](http://adsabs.harvard.edu/abs/1986ApJ...303..336G).
