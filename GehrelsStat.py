@@ -1,4 +1,4 @@
-#! /astro_sw/anaconda2/bin/python
+#! /bin/python
 # A small code to estimate confidence intervals for low-count events
 # Based on Gehrels+86
 
