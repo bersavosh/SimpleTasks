@@ -23,7 +23,9 @@ $ gehrels <N_OBSERVATION> [CONFIDENCE INTERVAL] [STEP SIZE]
 
 `
 $ gehrels 32 0.95
+
 For 32 events, 0.95 confidence level limits are:
+
 23.341 42.917
 `
 
