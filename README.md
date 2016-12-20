@@ -23,7 +23,13 @@ $ gehrels <N_OBSERVATION> [CONFIDENCE INTERVAL] [STEP SIZE]
 If only number of observations is provided, limits for 1-sigma confidence are returned and default step size is assumed.
 
 ## 2. NormStat:
-Same as above but for gaussian distribution. Because I'm too forgetful to remember how many 9s there are after the decimal in a 5-sigma confidence!
+I'm too forgetful to remember how many 9s there are after the decimal in a 5-sigma confidence or what are the chances of occurrence for it. So this small scripts spit it out.
+
+Usage is similar as GeherlsStat. Download `NormStat.py` and set alias for it. Then in the terminal you can type:
+
+`
+$ normstat <OBSERVED VALUE> [MEAN] [STANDARD DEVIATION]
+`
 
 ## 3. GCcat:
 A command line tool that returns information about a globular cluster from the [Harris Catalog](http://adsabs.harvard.edu/abs/1996AJ....112.1487H) ([2010 edition](http://www.physics.mcmaster.ca/~harris/Databases.html)).
