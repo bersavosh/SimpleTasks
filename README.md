@@ -7,19 +7,23 @@ A quick script to calculate confidence interval and significance for poisson dis
 ### To use: 
 * Download the code.
 * set the  the first line of the code to match your python (you can find your python by typing `which python` in the terminal).
-* and set an alias for this file.
+* Set an alias for this file:
 If you are using bash, then something like this in your `.bashrc` file:
 
 `
 alias gehrels="/PATH/TO/gehrelsStat.py"
 `
 
-* Then it is ready for use in the command line.
+* Now it is ready for use in the command line.
 
 ### Examples:
 
 `
 $ gehrels <N_OBSERVATION> [CONFIDENCE INTERVAL] [STEP SIZE]
+
+$ gehrels 32 0.95
+For 32 events, 0.95 confidence level limits are:
+23.341 42.917
 `
 
 If only number of observations is provided, limits for 1-sigma confidence are returned and default step size is assumed.
