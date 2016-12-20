@@ -17,10 +17,11 @@ alias gehrels="/PATH/TO/gehrelsStat.py"
 * Now it is ready for use in the command line.
 
 ### Examples:
-
 `
 $ gehrels <N_OBSERVATION> [CONFIDENCE INTERVAL] [STEP SIZE]
+`
 
+`
 $ gehrels 32 0.95
 For 32 events, 0.95 confidence level limits are:
 23.341 42.917
