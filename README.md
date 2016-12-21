@@ -34,7 +34,20 @@ Usage is similar as GeherlsStat. Download [`NormStat.py`](https://github.com/ber
 $ normstat <OBSERVED VALUE> [MEAN] [STANDARD DEVIATION]
 `
 
-### 3. GCcat:
+### 3. Xspec Configurations:
+If you use [`Xspec`](http://heasarc.gsfc.nasa.gov/docs/xanadu/xspec/index.html) for spectral analysis, you might need to set a few parameters to your desired configuration every time you run it (e.g., element abundance table, cross sections, etc.). One easy way to make Xspec load your configuration every time is to have a configuration file somewhere and make Xspec run it everytime it starts. 
+
+The [xspec_mod.conf](https://github.com/bersavosh/SimpleTasks/blob/master/xspec_mod.conf) file here is a simple example of this. It sets the solar abundances and cross section tables, initiates the plotting device (Xwindows here), sets default response to Xspec queries to yes and sets default plotting to energy (instead of channel).
+
+You can run it at the begining of an Xspec session by:
+`
+$ xspec - /PATH/TO/xspec_mod.conf
+`
+Or you can make an alias for it to load it by default:
+`
+alias xspec="xspec - /PATH/TO/xspec_mod.conf"
+`
+### 4. GCcat:
 A command line tool that returns information about a globular cluster from the [Harris Catalog](http://adsabs.harvard.edu/abs/1996AJ....112.1487H) ([2010 edition](http://www.physics.mcmaster.ca/~harris/Databases.html)).
 
 ## Notes:
