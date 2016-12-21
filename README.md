@@ -39,4 +39,5 @@ A command line tool that returns information about a globular cluster from the [
 
 ## Notes:
 
-### 1. 
+### 1. acknowledg_checklist
+A small checklist for acknowledgments in a paper.
