@@ -7,7 +7,7 @@ A quick script to calculate confidence interval and significance for poisson dis
 ### To use: 
 * Download `GehrelsStat.py`.
 * set the  the first line of the code to match your python (you can find your python by typing `which python` in the terminal).
-* give the file permision to execute (e.g., `chmod +x gehrelsStat.py`)
+* give the file permision to execute (e.g., `chmod +x GehrelsStat.py`)
 * Set an alias for this file:
 If you are using bash, then something like this in your `.bashrc` file:
 
