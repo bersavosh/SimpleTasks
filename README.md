@@ -1,5 +1,7 @@
 # SimpleTasks:
-A small collection of naive scripts I've written to for simple tasks or to remember something.
+A small collection of simple scripts and notes I've written for simple tasks or to remember something.
+
+## Scripts:
 
 ## 1. GehrelsStat:
 A quick script to calculate confidence interval and significance for poisson distribution of events in the photon-starved regime. This is a lazy brute-force implementation of [Gehrels 1986](http://adsabs.harvard.edu/abs/1986ApJ...303..336G).
@@ -34,3 +36,7 @@ $ normstat <OBSERVED VALUE> [MEAN] [STANDARD DEVIATION]
 
 ## 3. GCcat:
 A command line tool that returns information about a globular cluster from the [Harris Catalog](http://adsabs.harvard.edu/abs/1996AJ....112.1487H) ([2010 edition](http://www.physics.mcmaster.ca/~harris/Databases.html)).
+
+## Notes:
+
+## 1. 
