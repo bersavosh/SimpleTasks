@@ -23,7 +23,7 @@ $ gehrels <N_OBSERVATION> [CONFIDENCE INTERVAL] [STEP SIZE]
 If only number of observations is provided, limits for 1-sigma confidence are returned and default step size is assumed.
 
 ## 2. NormStat:
-I'm too forgetful to remember how many 9s there are after the decimal in a 5-sigma confidence or what are the chances of occurrence for it. So this small scripts spit it out.
+I'm too forgetful to remember how many 9s there are after the decimal in a 5-sigma confidence or what are the chances of occurrence for it. So this small script spits it out.
 
 Usage is similar as GeherlsStat. Download `NormStat.py` and set alias for it. Then in the terminal you can type:
 
