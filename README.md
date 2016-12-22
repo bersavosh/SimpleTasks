@@ -52,7 +52,7 @@ A command line tool that returns information about a globular cluster from the [
 
 ## Notes:
 
-### 1. [acknowledg_checklist](https://github.com/bersavosh/SimpleTasks/blob/master/acknowledg_checklist.md)
+### 1. [acknowledgment checklist](https://github.com/bersavosh/SimpleTasks/blob/master/acknowledg_checklist.md)
 A small checklist for acknowledgments in a paper.
 
 ### 2. [Astro software checklist](https://github.com/bersavosh/SimpleTasks/blob/master/observer_startup_guide.md)
