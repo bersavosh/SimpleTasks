@@ -54,3 +54,6 @@ A command line tool that returns information about a globular cluster from the [
 
 ### 1. [acknowledg_checklist](https://github.com/bersavosh/SimpleTasks/blob/master/acknowledg_checklist.md)
 A small checklist for acknowledgments in a paper.
+
+### 2. [Astro software checklist](https://github.com/bersavosh/SimpleTasks/blob/master/observer_startup_guide.md)
+A checklist of softwares and packages needed for observational astronomy. 
