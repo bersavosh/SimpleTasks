@@ -1,4 +1,4 @@
-# A check list for setting up observational astronomicy softwares and libraries.
+# A check list for setting up observational astronomy softwares and libraries
 
 Prepared by: A. Bahramian, E. W. Koch, A. J. Tetarenko, B. E. Tetarenko
 Draft version: May 2016
@@ -8,20 +8,27 @@ Draft version: May 2016
 **Note 2: Most packages below are available for common system types (Linux,OS X, Windows). But some are system-specific.**
 
 ## Part 1: General Setup
-- Development tools for basic compilers: 
-	For Mac:
-	XCode (https://developer.apple.com/xcode/download/)
+### Development tools for basic compilers:
+ - For Mac:
+ 	- [XCode](https://developer.apple.com/xcode/download/)
+	
 		Note 1: Only for Mac systems, if you’re using linux, you don’t need this.
+	
 		Note 2: Install a stable version. I.e., don’t install a “beta” version.
-Note 3: To start XCode, you need to read and accept its terms/conditions. Do so by typing “xcodebuild -license” in the terminal. 
-Note 4: Most likely you will need to install command line tools as well. If so, you will need to type this in the terminal: “xcode-select --install”
-	For Linux:
-Most linux builds have basic compilers, however some (e.g., Vanilla Ubuntu / CentOS) will often need the package “build-essential” which puts in the less common compilers like gfortran bindings. This package can be installed through a package manager (see below for details on package managers). 
-E.g.: “apt-get install build-essential”
+	
+		Note 3: To start XCode, you need to read and accept its terms/conditions. Do so by typing `xcodebuild -license` in the terminal.
+	
+		Note 4: Most likely you will need to install command line tools as well. If so, you will need to type this in the terminal: “xcode-select --install”.
+			
+- For Linux:
 
-- Package Manager:
+	Most linux builds have basic compilers, however some (e.g., Vanilla Ubuntu / CentOS) will often need the package `build-essential` which puts in the less common compilers like gfortran bindings. This package can be installed through a package manager (see below for details on package managers). 
+	
+	E.g.: `apt-get install build-essential`
+
+### Package Manager:
 For many packages and software dependencies, it’s more convenient to use a package manager instead of manual install. 
-For Mac:
+- For Mac:
 Recommended: Either Homebrew (http://brew.sh/) or MacPorts (https://www.macports.org/)
 		Note 1: Only install one of these, not both.
 	For Linux:
