@@ -10,15 +10,16 @@ Draft version: May 2016
 ## Part 1: General Setup
 ### Development tools for basic compilers:
  - For Mac:
- 	- [XCode](https://developer.apple.com/xcode/download/)
+ 	
+	[XCode](https://developer.apple.com/xcode/download/)
 	
-		Note 1: Only for Mac systems, if you’re using linux, you don’t need this.
+	Note 1: Only for Mac systems, if you’re using linux, you don’t need this.
 	
-		Note 2: Install a stable version. I.e., don’t install a “beta” version.
+	Note 2: Install a stable version. I.e., don’t install a “beta” version.
+
+	Note 3: To start XCode, you need to read and accept its terms/conditions. Do so by typing `xcodebuild -license` in the terminal.
 	
-		Note 3: To start XCode, you need to read and accept its terms/conditions. Do so by typing `xcodebuild -license` in the terminal.
-	
-		Note 4: Most likely you will need to install command line tools as well. If so, you will need to type this in the terminal: “xcode-select --install”.
+	Note 4: Most likely you will need to install command line tools as well. If so, you will need to type this in the terminal: `xcode-select --install`.
 			
 - For Linux:
 
@@ -27,63 +28,90 @@ Draft version: May 2016
 	E.g.: `apt-get install build-essential`
 
 ### Package Manager:
-For many packages and software dependencies, it’s more convenient to use a package manager instead of manual install. 
-- For Mac:
-Recommended: Either Homebrew (http://brew.sh/) or MacPorts (https://www.macports.org/)
-		Note 1: Only install one of these, not both.
-	For Linux:
-Package managers are already installed. Typically this will be apt-get (debian distributions) or yum (fedora/red-hat)
+For many packages and software dependencies, it’s more convenient to use a package manager instead of manual install.
 
-- A Scientific python distribution:
-	Recommended: Anaconda (https://www.continuum.io/downloads). This comes with a fantastic package manager - conda - which will make your life much easier! It can do other things too (such as creating new python environments for testing). Here’s a basic tutorial on its use: http://conda.pydata.org/docs/using/using.html
+- For Mac:
+	Recommended: Either [Homebrew](http://brew.sh/) or [MacPorts](https://www.macports.org/)
+
+	Note 1: Only install one of these, not both.
+
+- For Linux:
+	Package managers are already installed. Typically this will be apt-get (debian distributions) or yum (fedora/red-hat).
+
+### A Scientific python distribution:
+Recommended: [Anaconda](https://www.continuum.io/downloads). This comes with a fantastic package manager - conda - which will make your life much easier! It can do other things too (such as creating new python environments for testing). [Here](http://conda.pydata.org/docs/using/using.html)’s a basic tutorial on its use.
+
 Note 1: Most likely you will need Python 2.7 (and not 3.5). Check with your supervisor before choosing a version.
+
 Note 2: Anaconda contains basic tools for scientific use of python (e.g., numpy, scipy, matplotlib, etc.) plus many other useful analysis/demonstration packages: 
-Astropy (http://www.astropy.org/) 
-AstroML (http://www.astroml.org/index.html)
-Jupyter (http://jupyter.org/) (formerly the ipython notebook)
-Numpy - fast, basic numerical routines
-Scipy - A continuation of the numpy capabilities, including signal analysis and many fitting routines
-Matplotlib - the python standard of plotting. Highly flexible, but easy to use for basic plotting (most of the time)
-Pandas - Provides many, many tools for handling data in the form of tables (say catalogs of objects). 
+- [Astropy](http://www.astropy.org/) 
+	
+- [AstroML](http://www.astroml.org/index.html)
+	
+- [Jupyter](http://jupyter.org/) (formerly the ipython notebook)
+	
+- Numpy: fast, basic numerical routines
+	
+- Scipy: A continuation of the numpy capabilities, including signal analysis and many fitting routines
+	
+- Matplotlib: the python standard of plotting. Highly flexible, but easy to use for basic plotting (most of the time)
+	
+- Pandas: Provides many, many tools for handling data in the form of tables (say catalogs of objects). 
 Depending on your work some of these packages can help in your analysis.
 
--  A text editor:
+### A text editor:
 Your work most likely includes writing codes or opening astronomical data sets, thus a programming-oriented text editor can be beneficial.
-Recommended: Sublime (https://www.sublimetext.com/) 
-Note 1: If you’re using sublime for scripting, it would be useful to install sublime package control (https://packagecontrol.io/) and use it to find and install packages which can assist you in scripting. Here are some handy Sublime add-ons:
-Anaconda - python IDE and linter (NOT the same as the Anaconda distributions mentioned above). Provides auto-completion of defined variables, call-sequences for functions/classes, and checks for simple syntax errors in real-time.
-BracketHighlighter - more options than you could ever use/want for your bracket highlighting needs
-GitGutter - show which lines have changed since your last git commit
-LaTeXing - very handy tools when compiling/writing latex documents (requires having a latex distribution installed; see section 4)
-Material Theme & Material Color Scheme - It makes everything pretty (there are plenty of other custom themes for sublime too)
-Origami - fine-tune split-window configurations
-SideBarEnhancements - do more in the sidebar (create files, move directories/files, etc)
-Sublimerge Pro - side-by-side comparison of different versions of a files (technically asks for its own license, but is free to use indefinitely as is Sublime)
 
-- XQuartz or X11:
+Recommended: [Sublime](https://www.sublimetext.com/) 
+
+Note 1: If you’re using sublime for scripting, it would be useful to install [sublime package control](https://packagecontrol.io/) and use it to find and install packages which can assist you in scripting. Here are some handy Sublime add-ons:
+
+- Anaconda: python IDE and linter (NOT the same as the Anaconda distributions mentioned above). Provides auto-completion of defined variables, call-sequences for functions/classes, and checks for simple syntax errors in real-time.
+
+- BracketHighlighter: more options than you could ever use/want for your bracket highlighting needs
+
+- GitGutter: show which lines have changed since your last git commit
+
+- LaTeXing: very handy tools when compiling/writing latex documents (requires having a latex distribution installed; see section 4)
+
+- Material Theme & Material Color Scheme: It makes everything pretty (there are plenty of other custom themes for sublime too)
+
+- Origami: fine-tune split-window configurations
+
+- SideBarEnhancements: do more in the sidebar (create files, move directories/files, etc)
+
+- Sublimerge Pro: side-by-side comparison of different versions of a files (technically asks for its own license, but is free to use indefinitely as is Sublime)
+
+### XQuartz or X11:
 For some packages and tasks, you might need XQuartz (X11) in order to enable graphical user interface.
+
 XQuarts: http://www.xquartz.org/
+
 X11: http://www.x.org/wiki/
+
 Note 1: If you’re using Linux, it’s possible that it is already installed on your system. 
 
-Part 2: Tools for computational projects
+## Part 2: Tools for computational projects
 If your project is code-intensive and/or computationally extensive:
-- Setting up github account and install git-desktop (https://github.com/) 
+### Github: 
+Set up github account and install git-desktop (https://github.com/) 
 
-- If you are required to use Cloud resources: Your supervisor will provide you with an account if you need one.
+### Cloud resources:
+If you are required to use Cloud resources: Your supervisor will provide you with an account if you need one.
 
-- Jupyter notebooks are helpful for small code testing, data presentation and keeping notes on your scripts. Jupyter is included in Anaconda. If you need an advanced integrated development environment (IDE), PyCharm can be a good choice (http://www.jetbrains.com/pycharm/).
+### Testing and IDE:
+Jupyter notebooks are helpful for small code testing, data presentation and keeping notes on your scripts. Jupyter is included in Anaconda. If you need an advanced integrated development environment (IDE), [PyCharm](http://www.jetbrains.com/pycharm/) can be a good choice.
 
-Part 3: Astro-oriented packages
-Most of the Astronomy packages you might need are listed here: http://heasarc.gsfc.nasa.gov/docs/heasarc/astro-update/
+## Part 3: Astro-oriented packages
+Most of the Astronomy packages you might need are listed [here](http://heasarc.gsfc.nasa.gov/docs/heasarc/astro-update/).
 
 Here, we go over a few common ones which our group uses frequently:
 
-General note: Many of the packages below have a few dependencies which you need to install prior to installing the packages. You can find the list of such dependencies in each package’s installation guide (or on their websites). Generally, these dependencies can be installed using a package manager (e.g., MacPorts, HomeBrew, Apt-Get, etc.). Make sure to check this before attempting to install dependencies manually. 
+**General note**: Many of the packages below have a few dependencies which you need to install prior to installing the packages. You can find the list of such dependencies in each package’s installation guide (or on their websites). Generally, these dependencies can be installed using a package manager (e.g., MacPorts, HomeBrew, Apt-Get, etc.). Make sure to check this before attempting to install dependencies manually. 
 
-Part 3.1: General (multi-wavelength)
-- DS9: For visualization of astronomical data:
-	Link: http://ds9.si.edu/site/Download.html
+### Part 3.1: General (multi-wavelength)
+### [DS9](http://ds9.si.edu/site/Download.html): For visualization of astronomical data
+
 Note 1: If installing on Mac, make sure to use the disk image installers (i.e., click on the links next to the Apple logo, instead of the ones next to the “X”)
 
 - Astropy: For general astronomical data analysis (http://docs.astropy.org/en/stable/).
