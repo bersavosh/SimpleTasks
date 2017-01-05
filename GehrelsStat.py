@@ -18,9 +18,16 @@ def gehrels(x,cl=0.8413, step = 0.001):
 
     step: size of steps (smaller more accurate), default value = 0.001
     """
-    lower = x
-    while abs(sts.poisson.cdf(x-1,lower)-cl) > step:
-        lower -= step
+    if x < 0.0:
+        print 'Error: negative values not accepted.'
+        return None
+
+    if x == 0:
+        lower = 0.0
+    else:
+        lower = x
+        while abs(sts.poisson.cdf(x-1,lower)-cl) > step:
+            lower -= step
     
     upper = x
     while abs(1-sts.poisson.cdf(x,upper)-cl) > step:
