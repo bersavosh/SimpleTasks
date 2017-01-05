@@ -24,6 +24,7 @@ def gehrels(x,cl=0.8413, step = 0.001):
 
     if x == 0:
         lower = 0.0
+
     else:
         lower = x
         while abs(sts.poisson.cdf(x-1,lower)-cl) > step:
