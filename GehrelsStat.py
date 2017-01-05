@@ -34,7 +34,7 @@ def gehrels(x,cl=0.8413, step = 0.001):
     while abs(1-sts.poisson.cdf(x,upper)-cl) > step:
         upper += step
     
-    return lower,upper
+    return round(lower,5),round(upper,5)
 
 CL = 0.8413
 Step = 0.001
