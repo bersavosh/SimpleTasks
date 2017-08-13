@@ -1,4 +1,4 @@
-# An obbsessive checklist for paper acknowledgments:
+# An obsessive checklist for paper acknowledgments:
 This is a generic list, but mainly meant for observational astronomers. Many of these are just a matter of opinion.
 
 ### People:
