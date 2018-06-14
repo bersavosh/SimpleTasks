@@ -1,7 +1,7 @@
 # A check list for setting up observational astronomy softwares and libraries
 
 Prepared by: A. Bahramian, E. W. Koch, A. J. Tetarenko, B. E. Tetarenko
-Draft version: May 2016
+Draft version: June 2018
 
 **Note 1: The instructions below are just general suggestions, and do not apply to all projects. Check with your supervisor which of these you need.**
 
@@ -41,7 +41,7 @@ For many packages and software dependencies, it’s more convenient to use a pac
 ### A Scientific python distribution:
 Recommended: [Anaconda](https://www.continuum.io/downloads). This comes with a fantastic package manager - conda - which will make your life much easier! It can do other things too (such as creating new python environments for testing). [Here](http://conda.pydata.org/docs/using/using.html)’s a basic tutorial on its use.
 
-Note 1: Most likely you will need Python 2.7 (and not 3.5). Check with your supervisor before choosing a version.
+Note 1: Most likely you should install python 3. However, make sure the packages you need are available for python 3.
 
 Note 2: Anaconda contains basic tools for scientific use of python (e.g., numpy, scipy, matplotlib, etc.) plus many other useful analysis/demonstration packages: 
 - [Astropy](http://www.astropy.org/) 
@@ -81,6 +81,8 @@ Note 1: If you’re using sublime for scripting, it would be useful to install [
 - SideBarEnhancements: do more in the sidebar (create files, move directories/files, etc)
 
 - Sublimerge Pro: side-by-side comparison of different versions of a files (technically asks for its own license, but is free to use indefinitely as is Sublime)
+
+- iOpener: easy cmd file opening in sublime.
 
 ### XQuartz or X11:
 For some packages and tasks, you might need XQuartz (X11) in order to enable graphical user interface.
