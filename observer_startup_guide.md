@@ -191,6 +191,7 @@ Part 3.4: (Sub)-millimeter/Radio
 CARMA-http://bima.astro.umd.edu/miriad/)- Similar to CASA, for calibration, reduction, and imaging of interferometric data, notably used with SMA, ATCA, and CARMA (personally I prefer to use CASA instead, when possible). Note that if you have to use this, there is a different version of MIRIAD for different telescopes, make sure to download the right one!
 
 -GILDAS/CLASS/ASTRO (https://www.iram.fr/IRAMFR/GILDAS/ )- NOEMA/PdBI’s native calibration, reduction, and imaging package. Also contains sensitivity calculator and other proposal tools.
+
 -MIR (https://www.cfa.harvard.edu/sma/mir/ )- Original SMA data reduction package (I think). It is written in IDL and can only flag and calibrate data, no imaging. Not easy to use, avoid at all costs!
 
 -STARLINK (http://starlink.eao.hawaii.edu/starlink/ )- JCMT’s native reduction software. There are lots of help pages/tutorials on the EAO website and in the cookbooks linked there (http://www.eaobservatory.org/jcmt/observing/ ).
