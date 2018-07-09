@@ -1,7 +1,7 @@
 # A check list for setting up observational astronomy softwares and libraries
 
 Prepared by: A. Bahramian, E. W. Koch, A. J. Tetarenko, B. E. Tetarenko
-Draft version: June 2018
+Draft version: June 2016
 
 **Note 1: The instructions below are just general suggestions, and do not apply to all projects. Check with your supervisor which of these you need.**
 
